@@ -25,5 +25,5 @@ function greet(time) {
 /* Write your implementation of displayMessage() */
 function displayMessage(message) {
   let el = document.querySelector("h1#greeting");
-  el.innerText + message;
+  el.innerText = message;
 }
