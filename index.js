@@ -22,7 +22,9 @@ function greet(time) {
     return "Good Evening";
   }
 }
+
 /* Write your implementation of displayMessage() */
+
 function displayMessage(message) {
   let el = document.querySelector("h1#greeting");
   el.innerText = message;
